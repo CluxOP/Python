@@ -1,8 +1,8 @@
 # 👋 Hi, I’m Devansh Bhavsar 
 - Aka @CluxOP
-- 👀 I’m interested in programming and developing.
-- 🌱 I’m currently learning computer science.
-- 💞️ I’m looking to collaborate on any programming related topic.
+- 👀 I’m interested in programming and softwares.
+- 🌱 I’m currently studying computer science.
+- 💞️ I’m looking to collaborate on Machine Learning and Artificial Intelligence related topics.
 - 😄 Pronouns: He/Him.
 
 <!---
