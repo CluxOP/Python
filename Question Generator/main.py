@@ -1,3 +1,6 @@
+# This code uses pdf2image which requires a "poppler path" which i have set in "Assets/Poppler", so it is recommended to download poppler from internet and paste in there
+
+
 # importing required modules 
 import google.generativeai as genai
 import json
@@ -170,7 +173,7 @@ class WelcomePage(ctk.CTkFrame):
         # convert random pdf pages to jpeg
         random_page = random.randint(5, len(reader.pages))
 
-        images_ppm = convert_from_path(self.file_path, poppler_path=os.path.abspath(os.path.join("Assets", "Release-24.02.0-0", "poppler-24.02.0", "Library", "bin")), first_page=random_page, last_page=random_page + 5)
+        images_ppm = convert_from_path(self.file_path, poppler_path=os.path.abspath(os.path.join("Assets", "Poppler", "poppler-24.02.0", "Library", "bin")), first_page=random_page, last_page=random_page + 5)
         
         os.makedirs("images", exist_ok=True)
 
