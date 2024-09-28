@@ -4,7 +4,7 @@
 
    ```
    git clone https://github.com/CluxOP/Python.git
-   cd Spotify to YouTubeMusic
+   cd 'Spotify to YouTubeMusic'
    ```
 
 2. Install required packages:
